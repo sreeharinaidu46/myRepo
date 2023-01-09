@@ -1,0 +1,182 @@
+.App h1 {
+    text-align: center;
+    background-color: rgb(3, 9, 59);
+    color: wheat;
+}
+
+.add-transaction-modal.ui.modal {
+    overflow: hidden !important;
+    margin: 0;
+    top: 0px;
+    right: 0px;
+    width: 30% !important;
+    overflow: auto !important;
+    animation: slide-left 0.5s ease-out !important;
+    margin: 0px !important;
+}
+
+.view-modal-only.ui.modal {
+    width: 60% !important;
+}
+
+.add-transaction-modal.ui.modal>.content {
+    padding: 30px;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    margin: 0px;
+}
+
+.add-transaction-modal.ui.modal>.header {
+    height: 70px;
+    background-color: #fff !important;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1) !important;
+    border-radius: 2px 2px 0 0;
+    border-bottom-color: #0d9aef !important;
+    border-bottom-width: 1px;
+    color: black !important;
+    /* font-size: 24px !important;
+  font-family: "Vi-R" !important; */
+    /* font-weight: 500 !important; */
+    padding: 20px 30px !important;
+    display: inline-flex;
+    width: 100%;
+    font: normal normal bold 24px/30px Vi-B !important;
+    letter-spacing: 0px;
+    color: #2f3043 !important;
+    text-transform: lowercase !important;
+    opacity: 1;
+    border-bottom: 2px solid #ee2737 !important;
+    /* font-size: 24px !important;
+  font-family: "Vi-R" !important;
+  font-weight: 300 !important; */
+}
+
+#add-transactionss-ui-modal {
+    padding: 0px !important;
+}
+
+.type-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    margin-top: -20px;
+    margin-right: -30px;
+    cursor: pointer;
+    color: #2F3043;
+    transition: ease-out 0.3s;
+    /* margin-top: -5px;
+  position: absolute;
+  right: 10px; */
+}
+
+.type-btn:hover {
+    color: #EE2737 !important;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+}
+
+.user-text {
+    margin-bottom: 5px !important;
+    text-align: left;
+    font: normal normal normal 14px/16px Vi-R !important;
+    letter-spacing: 0px;
+    color: #2F3043 !important;
+    opacity: 1;
+}
+
+#updateDeviceInputStyles {
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #D5D6D9;
+    border-radius: 3px !important;
+    opacity: 1;
+    color: #2F3043 !important;
+    text-align: left !important;
+    letter-spacing: 0px;
+    text-align: left;
+    font: normal normal normal 14px/20px Vi-R !important;
+    letter-spacing: 0px;
+    color: #2F3043;
+    opacity: 1;
+    /* / / margin-top: 5px; / / */
+    height: 32px !important;
+}
+
+#updateDeviceInputStyles:focus {
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #82838E !important;
+    border-radius: 3px !important;
+    opacity: 1 !important;
+    box-shadow: inset 0px 2px 2px #0000001A !important;
+}
+
+#updateDeviceInputStyles:disabled {
+    background: #EAEAEC 0% 0% no-repeat padding-box !important;
+    border: 1px solid #D5D6D9 !important;
+    text-align: left;
+    font: normal normal normal 14px/20px Vi-R !important;
+    letter-spacing: 0px;
+    color: #595969 !important;
+    opacity: 1;
+}
+
+.adduser-input .ui.input {
+    width: 100%;
+}
+
+.rule-btn1 {
+    /* width: 29%; */
+    min-width: 100px !important;
+    background-color: #ffffff !important;
+    /* border: 1px solid #d6d6d6 !important; */
+    border: 1px solid #595969 !important;
+    /* font-family: "Vi-S" !important;
+  font-weight: 600 !important; */
+    font: normal normal 500 14px/16px Vi-M !important;
+    /* color: #33495f !important; */
+    color: #2F3043 !important;
+    font-size: 14px !important;
+    /* border-radius: 25px !important; */
+    border-radius: 20px !important;
+    height: 32px;
+    text-transform: lowercase !important;
+    text-align: center !important;
+    padding: 0px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.rule-btn1:hover {
+    cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000001A !important;
+    border: 1px solid #2F3043 !important;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.rule-btn2 {
+    border: none;
+    background: #EE2737 0% 0% no-repeat padding-box !important;
+    border-radius: 40px !important;
+    text-align: center !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    min-width: 100px !important;
+    text-transform: lowercase !important;
+    padding: 0px;
+    height: 32px !important;
+    opacity: 1;
+    font: normal normal bold 14px/20px Vi-B !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.rule-btn2:hover {
+    cursor: pointer;
+    background: #F1525F 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 3px 6px #0000001A !important;
+    opacity: 1;
+}

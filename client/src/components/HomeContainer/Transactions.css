@@ -1,0 +1,44 @@
+.filtering-tab {
+    padding: 15px;
+    border: 1px solid #eaeaec;
+}
+
+.transactions-topdiv {
+    display: flex;
+    gap: 20px;
+}
+
+.filtering-tab {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    border: 1px solid #8f8fa7;
+    justify-content: center;
+}
+
+.react-datepicker__input-container>input {
+    width: 100px;
+    padding: 10px;
+}
+
+.p-tag-styles {
+    margin: 0;
+}
+
+.leftNavbar {
+    display: flex;
+    padding: 5px;
+    border: 1px solid #eaeaec;
+    background-color: #ccc4be;
+    gap: 10px;
+    align-items: center;
+}
+
+.logout-navbar-styles {
+    padding: 5px;
+    background-color: rgb(85, 87, 91);
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+}

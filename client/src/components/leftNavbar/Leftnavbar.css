@@ -1,0 +1,16 @@
+.leftNavbar {
+  display: flex;
+  padding: 5px;
+  border: 1px solid #eaeaec;
+  background-color: #bb8d6e;
+  gap: 10px;
+}
+
+.logout-navbar-styles {
+  padding: 5px;
+  background-color: rgb(85, 87, 91);
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+}
